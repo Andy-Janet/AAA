@@ -9,7 +9,7 @@
 
     充电宝能充几次： 1
     2GB 更新包要下几分钟： 3.4
-    第 1 次查电量：剩 80%，电量健康
+    第 1 次查电量：剩 70%，电量健康
     第 2 次查电量：剩 35%，有点焦虑
     第 3 次查电量：剩 15%，找充电宝！
     一共查了 3 次
@@ -58,7 +58,7 @@ def check_battery(left):
     text = "第"+str(checks)+"次查电量："
     print(text + "剩"+str(left)+ "%" +badge)
 
-check_battery(80)
+check_battery(70)
 check_battery(35)
 check_battery(15)
 
